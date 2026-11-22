@@ -1,0 +1,5 @@
+Метод,CV Balanced accuracy,CV std,Параметры
+kNN,0.6431778829103272,0.017988517893532903,"{""model__n_neighbors"": 5, ""model__weights"": ""distance""}"
+Дерево решений,0.7475853755914056,0.009541443009923049,"{""model__class_weight"": ""balanced"", ""model__max_depth"": 8, ""model__min_samples_leaf"": 5}"
+Логистическая регрессия,0.7928108005896878,0.013378634985814672,"{""model__C"": 0.1, ""model__class_weight"": ""balanced""}"
+Случайный лес,0.7817728746124628,0.006164940150852268,"{""model__class_weight"": ""balanced_subsample"", ""model__max_depth"": null, ""model__min_samples_leaf"": 8}"

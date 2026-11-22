@@ -1,0 +1,60 @@
+{
+  "rows": 3041,
+  "columns": 12,
+  "missing": 0,
+  "duplicates": 0,
+  "numeric": [
+    "age",
+    "annual_income",
+    "loan_amount",
+    "interest_rate_pct",
+    "term_months",
+    "credit_score",
+    "num_open_accounts"
+  ],
+  "categorical": [
+    "employment_type",
+    "education",
+    "delinquency_30d",
+    "residence_type"
+  ],
+  "encoded_features": [
+    "num__age",
+    "num__annual_income",
+    "num__loan_amount",
+    "num__interest_rate_pct",
+    "num__term_months",
+    "num__credit_score",
+    "num__num_open_accounts",
+    "cat__employment_type_Salaried",
+    "cat__employment_type_Self-Employed",
+    "cat__employment_type_Unemployed",
+    "cat__education_Bachelors",
+    "cat__education_HS",
+    "cat__education_Masters",
+    "cat__education_PhD",
+    "cat__delinquency_30d_No",
+    "cat__delinquency_30d_Yes",
+    "cat__residence_type_Mortgage",
+    "cat__residence_type_Own",
+    "cat__residence_type_Rent"
+  ],
+  "train_rows": 2128,
+  "test_rows": 913,
+  "positive": 620,
+  "chosen_by_cv": "Логистическая регрессия",
+  "seed": 42,
+  "sha256": "ac9181e55be37a2436df8eff1a5fb3fe09c6bbb253540a1ff5e3ed4caf1c90af",
+  "versions": {
+    "Python": "3.14.10",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "sklearn": "1.9.1"
+  },
+  "model_order": {
+    "model_1": "kNN",
+    "model_2": "Дерево решений",
+    "model_3": "Логистическая регрессия",
+    "model_4": "Случайный лес"
+  }
+}
